@@ -1491,63 +1491,63 @@ class _Screen3State extends State<Screen3> {
                 ],
               ),
             ),
-             Padding(
-               padding: const EdgeInsets.symmetric(vertical: 10,horizontal: 20),
-               child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Container(
-                            width: 120,
-                            height: 140,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(5),
-                                color: Colors.amber,
-                                image: DecorationImage(
-                                    fit: BoxFit.fill,
-                                    image: AssetImage('assets/img/pic9.png'))),
-                            child: Align(
-                                alignment: Alignment.topRight,
-                                child: Icon(
-                                  Icons.close,
-                                  color: Colors.white,
-                                )),
-                          ),
-                          Container(
-                            width: 120,
-                            height: 140,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(5),
-                                color: Colors.amber,
-                                image: DecorationImage(
-                                    fit: BoxFit.fill,
-                                    image: AssetImage('assets/img/pic10.png'))),
-                            child: Align(
-                                alignment: Alignment.topRight,
-                                child: Icon(
-                                  Icons.close,
-                                  color: Colors.white,
-                                )),
-                          ),
-                          Container(
-                            width: 120,
-                            height: 140,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(5),
-                                color: Colors.amber,
-                                image: DecorationImage(
-                                    fit: BoxFit.fill,
-                                    image: AssetImage('assets/img/pic11.png'))),
-                            child: Align(
-                                alignment: Alignment.topRight,
-                                child: Icon(
-                                  Icons.close,
-                                  color: Colors.grey.shade300,
-                                )),
-                          ),
-                        ],
-                      ),
-             ),
-              Padding(
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    width: 120,
+                    height: 140,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.amber,
+                        image: DecorationImage(
+                            fit: BoxFit.fill,
+                            image: AssetImage('assets/img/pic9.png'))),
+                    child: Align(
+                        alignment: Alignment.topRight,
+                        child: Icon(
+                          Icons.close,
+                          color: Colors.white,
+                        )),
+                  ),
+                  Container(
+                    width: 120,
+                    height: 140,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.amber,
+                        image: DecorationImage(
+                            fit: BoxFit.fill,
+                            image: AssetImage('assets/img/pic10.png'))),
+                    child: Align(
+                        alignment: Alignment.topRight,
+                        child: Icon(
+                          Icons.close,
+                          color: Colors.white,
+                        )),
+                  ),
+                  Container(
+                    width: 120,
+                    height: 140,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.amber,
+                        image: DecorationImage(
+                            fit: BoxFit.fill,
+                            image: AssetImage('assets/img/pic11.png'))),
+                    child: Align(
+                        alignment: Alignment.topRight,
+                        child: Icon(
+                          Icons.close,
+                          color: Colors.grey.shade300,
+                        )),
+                  ),
+                ],
+              ),
+            ),
+            Padding(
               padding: const EdgeInsets.only(left: 20, top: 10, bottom: 10),
               child: Row(
                 children: [
@@ -1576,6 +1576,35 @@ class _Screen3State extends State<Screen3> {
               ),
             ),
             Texter(text: "いちごクリームアイスクリーム, ジュース"),
+            SizedBox(
+              height: 30,
+            ),
+            Align(
+              alignment: Alignment.center,
+              child: Container(
+                width: MediaQuery.of(context).size.width * 0.9,
+                height: 50,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: Colors.amber),
+                child: Center(
+                  child: Text(
+                    "編集を保存",
+                    style: const TextStyle(
+                      fontFamily: "Noto Sans JP",
+                      fontSize: 14,
+                      fontWeight: FontWeight.w700,
+                      color: Colors.white,
+                      height: 20 / 14,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 30,
+            )
           ],
         ),
       ),
