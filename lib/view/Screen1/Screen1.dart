@@ -16,11 +16,11 @@ class _Screen1State extends State<Screen1> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        // floatingActionButton: FloatingActionButton(
-        //   shape: CircleBorder(),
-        //   onPressed: () {},
-        //   child: Icon(Icons.location_pin),
-        // ),
+        floatingActionButton: FloatingActionButton(
+          shape: CircleBorder(),
+          onPressed: () {},
+          child: Icon(Icons.location_pin),
+        ),
         bottomNavigationBar: Container(
           width: MediaQuery.of(context).size.width,
           height: MediaQuery.of(context).size.height * 0.07,
