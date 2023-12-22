@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: ^4.6.6
   calendar_timeline: ^1.1.2
+  responsive_builder: ^0.7.0
 
 dev_dependencies:
   flutter_test:
